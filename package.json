@@ -1,0 +1,27 @@
+{
+  "name": "riot",
+  "version": "1.0.0",
+  "description": "rubi tries an IOT project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rubi128/rIOT.git"
+  },
+  "author": "rubi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rubi128/rIOT/issues"
+  },
+  "homepage": "https://github.com/Rubi128/rIOT#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
+}
